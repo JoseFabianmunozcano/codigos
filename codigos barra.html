@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+	<title>Menu Desplegable</title>
+		
+		<style type="text/css">
+			sssss
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#dd2c00;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#ff6434;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html"><span class=""><i class="icon icon-home"></i></span></span>Inicio</a></li>
+		<li><a href=""><span class=""><i class="icon icon-briefcase"></i></span></span>Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href=""><span class=""><i class="icon icon-file-text"></i></span></span>Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href=""><span class=""><i class="icon icon-address-book"></i></span></span>Contacto</a></li><!--en esta linea podremos ingresar nuestro correo-->
+			</ul>
+		</div>
+		<body>
+			<div class="social">
+				<ul>
+					<li><a href="#" class="icon icon-facebook"></a></li>
+					<li><a href="#" class="icon icon-twitter"></a></li>
+					<li><a href="#" class="icon icon-google-plus"></a></li>
+					<li><a href="#" class="icon icon-pinterest"></a></li>
+					<li><a href="#" class="icon icon-mail"></a></li>
+				</ul>
+			</div>
+		</body>
+		
+<body>
+</body>
+</html>
